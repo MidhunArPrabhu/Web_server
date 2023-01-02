@@ -59,12 +59,10 @@ class HelloHandler(BaseHTTPRequestHandler):
 server_address = ('',80)
 httpd = HTTPServer(server_address,HelloHandler)
 httpd.serve_forever()
-
+```
 # OUTPUT:
- ![MIDZ_DI](midz.simpweb.png)
 
-
+![MIDZ_DI](midz_simpweb.png)
 
 # RESULT:
-
 The program is executed succesfully
